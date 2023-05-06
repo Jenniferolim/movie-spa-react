@@ -1,0 +1,75 @@
+.movie-card-image{
+   max-width: 250px;
+   min-height: 369px;
+   border-radius: 16px;
+}
+.card-movie{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 280px;
+    padding: 16px;
+    background: #FCFCFC;
+    border: 1px solid #CCCCCC;
+    border-radius: 16px;
+}
+.movie-card-title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #232323;
+    min-height: 54px;
+} 
+.movie-card-crew{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    min-height: 42px;
+}
+.movie-card-year{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+.movies{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    max-width: 1200px;
+    gap: 40px;
+    margin: auto;
+    justify-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.pagination{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.pagination span{
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.2px solid #DADBE0;
+    border-radius: 10px;
+    color:  #726BEA;
+    transition: .5s ease;
+    cursor: pointer;
+}
+.pagination span:hover{
+    background-color: #726BEA;
+    color: white;
+}
+.pagination img{
+    cursor: pointer;
+    transition: .5s ease;
+}
+.pagination img:hover{
+    transform: scale(0.9) !important;
+}
+.pagination{
+    padding-bottom: 64px;
+}

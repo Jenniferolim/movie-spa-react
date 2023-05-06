@@ -1,0 +1,146 @@
+.slick-slider{
+    background-color: black;
+    color: white;  
+    max-width: 100vw;
+    height: 60vh;
+    max-height: 570px;
+}
+.slick-prev, .slick-next{
+    display: none !important;
+}
+.slick-next{
+   right: 135px !important;
+   z-index: 99;
+}
+.slick-prev{
+    left: 135px !important;
+    z-index: 99;
+}
+.slick-dots{
+    bottom: 25px !important;
+}
+.slick-dots li button:before{
+    content: "" !important;
+    background-color: white;
+    border-radius: 20px !important;
+}
+.slick-dots li.slick-active button:before{
+    opacity: 1;
+}
+.slick-list{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.item-slider{
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    position: relative;
+}
+.movie-image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    filter: blur(1px);
+}
+.slick-list > div{
+    height: 100% !important;
+}
+.slick-slide.slick-active.slick-current > div{
+    height: 100%;
+}
+.shadow{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+    position: absolute;
+    z-index: 2;
+}
+.content-text{
+    color: white;
+    z-index: 9;
+    position: absolute;
+    bottom: 20%;
+    left: 13%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.rating span{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 16px;
+    background: rgba(114, 107, 234, 0.8);
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.movie-title{
+    font-weight: 700;
+    font-size: 40px;
+}
+.line-flex{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.crew{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+@media(max-width:1500px){
+    .content-text{
+        bottom: 20%;
+        left: 10%;
+    }
+}
+
+@media(max-width:1100px){
+    .content-text{
+        bottom: 20%;
+        left: 10%;
+    }
+}
+
+@media(max-width:800px){
+    :is(.slick-prev, .slick-next, .slick-dots){
+        display: none !important;
+    }
+    .slick-dots li button:before{
+        width: 10px !important;
+        height: 10px !important;
+    }
+    .slick-dots{
+        bottom: 9px !important;
+    }
+    .content-text{
+        bottom: 20%;
+        left: 10%;
+    }
+    .movie-title{
+        font-size: 32px;
+    }
+    .rating span{
+        font-size: 12px;
+    }
+    .crew{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:600px){
+    .content-text{
+        bottom: 10%;
+        left: 10%;
+    }
+    .crew{
+        font-size: 12px;
+    }
+}
