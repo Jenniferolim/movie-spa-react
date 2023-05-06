@@ -3,6 +3,7 @@ import './index.css'
 import Star from '../../assets/images/star.png'
 import ButtonPaginationLeft from '../../assets/images/btn-pagination-left.png'
 import ButtonPaginationRight from '../../assets/images/btn-pagination-right.png'
+
 const Movies = () => {
 
     const[movies, setMovies] = useState([])
