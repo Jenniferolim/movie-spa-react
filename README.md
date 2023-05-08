@@ -2,9 +2,6 @@
 
 O projeto é um clone da interface do projeto criado no figma, onde o intuito é criar uma aplicação que faça apresentação de alguns filmes via uma API
 
-<br>
-<br>
-
 ## 💡 Desenvolvimento
 
 Básicamente o processo de desenvolvimento foi separado em 3 etapas:
