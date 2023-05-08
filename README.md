@@ -18,7 +18,7 @@ A criação da responsividade foi feita depois do termino de toda a aplicação,
 
 ## Dificuldades ❔ 
 
-A maioria dificuldade com certeza foi trabalhar com variaveis de ambiente, tive que consultar muitos blogs de desenvolvedores para atingir o objetivo de tornar o projeto mais "profissional", claro que ainda há muita difoculdade de criar algo mais complexo que a aplicação atual.
+A maioria dificuldade com certeza foi trabalhar com variaveis de ambiente, tive que consultar muitos blogs de desenvolvedores para atingir o objetivo de tornar o projeto mais "profissional", claro que ainda há muita dificuldade de criar algo mais complexo que a aplicação atual.
 
 Trabalhar com requisições sempre pode ser um pouco mais árduo, principalmente quando temos que controlar repetições e trativas das respostas das mesma.
 
